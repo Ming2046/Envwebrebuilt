@@ -1,0 +1,30 @@
+{
+    "name": "raxr",
+    "version": "1.7.0",
+    "description": "Raxr - React Next Data Science & AI Analytics Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "export": "next export",
+        "start": "next start"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "axios": ">=0.22.0",
+        "next": ">=12.1.5",
+        "nodemailer": "^6.7.2",
+        "nodemailer-sendgrid-transport": ">=0.2.0",
+        "react": ">=18.2.0",
+        "react-accessible-accordion": ">=3.3.5",
+        "react-animate-on-scroll": ">=2.1.5",
+        "react-dom": ">=18.0.0",
+        "react-modal-video": ">=1.2.8",
+        "react-owl-carousel3": ">=2.2.5",
+        "react-visibility-sensor": ">=5.1.1",
+        "sass": ">=1.43.5",
+        "sweetalert2": ">=11.2.1",
+        "sweetalert2-react-content": ">=4.2.0"
+    }
+}
