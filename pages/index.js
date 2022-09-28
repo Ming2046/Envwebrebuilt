@@ -33,7 +33,7 @@ class Index extends Component {
                     <FeaturedService />
                 </div>
 
-                <Testimonial />
+                /*<Testimonial />*/
 
                 <GetStartedProject />
 
