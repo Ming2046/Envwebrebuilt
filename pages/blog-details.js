@@ -11,7 +11,7 @@ class BlogDetails extends Component {
                 <Navbar />
 
                 <PageBanner
-                    pageTitle="Blog Details" 
+                    pageTitle="Blog Details hahahahha"
                     breadcrumbTextOne="Home" 
                     breadcrumbTextTwo="Blog Details" 
                     breadcrumbUrl="/" 
