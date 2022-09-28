@@ -88,12 +88,12 @@ class Navbar extends Component {
                                                         <a className="nav-link">Home Three</a>
                                                     </Link>
                                                 </li>
-
+                                                /*
                                                 <li className="nav-item">
                                                     <Link href="/index4" activeClassName="active">
                                                         <a className="nav-link">Home Four</a>
                                                     </Link>
-                                                </li>
+                                                </li>*/
                                             </ul>
                                         </li>
 
