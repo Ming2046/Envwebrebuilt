@@ -30,7 +30,7 @@ class Index2 extends Component {
 
                 <WorkingProcess />
 
-                <Testimonial />
+                /*<Testimonial />*/
 
                 <BlogPost />
 
