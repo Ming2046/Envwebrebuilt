@@ -63,6 +63,7 @@ class Navbar extends Component {
 
                                 <div className={classOne} id="navbarSupportedContent">
                                     <ul className="navbar-nav">
+                                    
                                         <li className="nav-item">
                                             <Link href="/about-us">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
@@ -107,7 +108,7 @@ class Navbar extends Component {
                                                 </li>
                                             </ul>
                                         </li>
-
+                                        
                                         <li className="nav-item">
                                             <Link href="/#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
@@ -221,6 +222,11 @@ class Navbar extends Component {
                                         <li className="nav-item">
                                             <Link href="/contact" activeClassName="active">
                                                 <a className="nav-link">Contact Us</a>
+                                            </Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link href="/contact" activeClassName="active">
+                                                <a className="nav-link">Log in</a>
                                             </Link>
                                         </li>
                                     </ul>
