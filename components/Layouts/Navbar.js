@@ -62,6 +62,7 @@ class Navbar extends Component {
                                 </button>
 
                                 <div className={classOne} id="navbarSupportedContent">
+                                    <ul className="navbar-nav">
 
 
                                         <li className="nav-item">
