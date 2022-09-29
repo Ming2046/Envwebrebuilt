@@ -88,32 +88,17 @@ class Navbar extends Component {
                                         <li className="nav-item">
                                             <Link href="/#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    Emission X <i className="fas fa-chevron-down"></i>
+                                                    Product <i className="fas fa-chevron-down"></i>
                                                 </a>
                                             </Link>
 
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/about-us" activeClassName="active">
-                                                        <a className="nav-link">About Us</a>
-                                                    </Link>
-                                                </li>
 
-                                                <li className="nav-item">
-                                                    <Link href="/team" activeClassName="active">
-                                                        <a className="nav-link">Team</a>
-                                                    </Link>
-                                                </li>
 
-                                                <li className="nav-item">
-                                                    <Link href="/services" activeClassName="active">
-                                                        <a className="nav-link">Services</a>
-                                                    </Link>
-                                                </li>
+
 
                                                 <li className="nav-item">
                                                     <Link href="/service-details" activeClassName="active">
-                                                        <a className="nav-link">Service Details</a>
+                                                        <a className="nav-link">Emission X</a>
                                                     </Link>
                                                 </li>
 
