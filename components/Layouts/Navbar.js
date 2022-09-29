@@ -47,13 +47,13 @@ class Navbar extends Component {
                                     </a>
                                 </Link>
 
-                                <button 
-                                    onClick={this.toggleNavbar} 
+                                <button
+                                    onClick={this.toggleNavbar}
                                     className={classTwo}
-                                    type="button" 
-                                    data-toggle="collapse" 
-                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                    aria-expanded="false" 
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false"
                                     aria-label="Toggle navigation"
                                 >
                                     <span className="icon-bar top-bar"></span>
@@ -69,13 +69,29 @@ class Navbar extends Component {
                                             </Link>
                                         </li>
 
-
+                                        // this for About us dropdown box
                                         <li className="nav-item">
-                                            <Link href="/about-us" activeClassName="active">
-                                                <a className="nav-link">About us</a>
+                                            <Link href="/about-us">
+                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                    About <i className="fas fa-chevron-down"></i>
+                                                </a>
                                             </Link>
+
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="/services" activeClassName="active">
+                                                        <a className="nav-link">Team</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link href="/service-details" activeClassName="active">
+                                                        <a className="nav-link">what we do</a>
+                                                    </Link>
+                                                </li>
+                                            </ul>
                                         </li>
- 
+
                                         <li className="nav-item">
                                             <Link href="/#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
@@ -163,7 +179,7 @@ class Navbar extends Component {
                                                         <a className="nav-link">Project Details</a>
                                                     </Link>
                                                 </li>
- 
+
                                                 <li className="nav-item">
                                                     <Link href="/pricing" activeClassName="active">
                                                         <a className="nav-link">Pricing</a>
@@ -181,7 +197,7 @@ class Navbar extends Component {
                                                         <a className="nav-link">FAQ</a>
                                                     </Link>
                                                 </li>
-  
+
                                                 <li className="nav-item">
                                                     <Link href="/coming-soon" activeClassName="active">
                                                         <a className="nav-link">Coming Soon</a>
@@ -240,7 +256,7 @@ class Navbar extends Component {
                                     <div className="others-options">
                                         <Link href="/contact">
                                             <a className="default-btn">
-                                                Free Quote 
+                                                Free Quote
                                                 <span></span>
                                             </a>
                                         </Link>
