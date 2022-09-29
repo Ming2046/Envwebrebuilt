@@ -63,8 +63,6 @@ class Navbar extends Component {
 
                                 <div className={classOne} id="navbarSupportedContent">
                                     <ul className="navbar-nav">
-
-
                                         <li className="nav-item">
                                             <Link href="/about-us">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
@@ -87,27 +85,6 @@ class Navbar extends Component {
                                             </ul>
                                         </li>
 
-                                        <li className="nav-item">
-                                            <Link href="/#">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    Services <i className="fas fa-chevron-down"></i>
-                                                </a>
-                                            </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/services" activeClassName="active">
-                                                        <a className="nav-link">Services</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/service-details" activeClassName="active">
-                                                        <a className="nav-link">Service Details</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
 
                                         <li className="nav-item">
                                             <Link href="/#">
