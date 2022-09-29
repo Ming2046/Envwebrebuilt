@@ -85,34 +85,10 @@ class Navbar extends Component {
                                                 </li>
                                             </ul>
                                         </li>
-
-
                                         <li className="nav-item">
                                             <Link href="/#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    Projects <i className="fas fa-chevron-down"></i>
-                                                </a>
-                                            </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/projects" activeClassName="active">
-                                                        <a className="nav-link">Projects</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/project-details" activeClassName="active">
-                                                        <a className="nav-link">Project Details</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        
-                                        <li className="nav-item">
-                                            <Link href="/#">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    Pages <i className="fas fa-chevron-down"></i>
+                                                    Emission X <i className="fas fa-chevron-down"></i>
                                                 </a>
                                             </Link>
 
@@ -184,6 +160,31 @@ class Navbar extends Component {
                                                 </li>
                                             </ul>
                                         </li>
+
+
+                                        <li className="nav-item">
+                                            <Link href="/#">
+                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                    Projects <i className="fas fa-chevron-down"></i>
+                                                </a>
+                                            </Link>
+
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="/projects" activeClassName="active">
+                                                        <a className="nav-link">Projects</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link href="/project-details" activeClassName="active">
+                                                        <a className="nav-link">Project Details</a>
+                                                    </Link>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+
 
                                         <li className="nav-item">
                                             <Link href="/#">
