@@ -92,10 +92,7 @@ class Navbar extends Component {
                                                 </a>
                                             </Link>
 
-
-
-
-
+                                            <ul className="dropdown-menu">
                                                 <li className="nav-item">
                                                     <Link href="/service-details" activeClassName="active">
                                                         <a className="nav-link">Emission X</a>
