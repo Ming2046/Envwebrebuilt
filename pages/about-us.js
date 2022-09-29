@@ -31,7 +31,7 @@ class AboutUs extends Component {
                     <GetStartedProject />
                 </div>
 
-                <Testimonial />
+
 
                 <TeamMember />
 
