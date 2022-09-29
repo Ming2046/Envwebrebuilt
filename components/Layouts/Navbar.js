@@ -70,19 +70,6 @@ class Navbar extends Component {
                                                 </a>
                                             </Link>
 
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/" activeClassName="active">
-                                                        <a className="nav-link">Home One</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/index2" activeClassName="active">
-                                                        <a className="nav-link">Home Two</a>
-                                                    </Link>
-                                                </li>
-
                                                 <li className="nav-item">
                                                     <Link href="/index3" activeClassName="active">
                                                         <a className="nav-link">Home Three</a>
