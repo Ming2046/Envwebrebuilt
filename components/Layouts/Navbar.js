@@ -79,7 +79,7 @@ class Navbar extends Component {
                                                 </li>
 
                                             </ul>
-                                        </li>
+
 
                                         <li className="nav-item">
                                             <Link href="/about-us" activeClassName="active">
