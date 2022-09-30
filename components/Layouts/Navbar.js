@@ -116,7 +116,7 @@ class Navbar extends Component {
                                                         <a className="nav-link">ESG Reporting</a>
                                                     </Link>
                                                 </li>
-
+                                                <!--
                                                 <li className="nav-item">
                                                     <Link href="/partner" activeClassName="active">
                                                         <a className="nav-link">Partner</a>
@@ -139,7 +139,8 @@ class Navbar extends Component {
                                                     <Link href="/404" activeClassName="active">
                                                         <a className="nav-link">404 Error Page</a>
                                                     </Link>
-                                                </li>
+                                                </li>-->
+                                                
                                             </ul>
                                         </li>
 
