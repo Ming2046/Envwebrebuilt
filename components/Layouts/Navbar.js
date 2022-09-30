@@ -116,30 +116,7 @@ class Navbar extends Component {
                                                         <a className="nav-link">ESG Reporting</a>
                                                     </Link>
                                                 </li>
-                                                <!--
-                                                <li className="nav-item">
-                                                    <Link href="/partner" activeClassName="active">
-                                                        <a className="nav-link">Partner</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/faq" activeClassName="active">
-                                                        <a className="nav-link">FAQ</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/coming-soon" activeClassName="active">
-                                                        <a className="nav-link">Coming Soon</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/404" activeClassName="active">
-                                                        <a className="nav-link">404 Error Page</a>
-                                                    </Link>
-                                                </li>-->
+                                                
                                                 
                                             </ul>
                                         </li>
