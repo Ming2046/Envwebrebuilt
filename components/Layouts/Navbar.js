@@ -93,33 +93,27 @@ class Navbar extends Component {
                                             </Link>
 
                                             <ul className="dropdown-menu">
-                                                <span
-                                                    className={
-                                                            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-                                                                            }>                               
-                                                    Admin Layout
-                                                </span>
                                                 <li className="nav-item">
                                                     <Link href="/service-details" activeClassName="active">
-                                                        <a className="nav-link">Emission X</a>
+                                                        <a className="nav-link">Emission Factor Hub</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/projects" activeClassName="active">
-                                                        <a className="nav-link">Projects</a>
+                                                        <a className="nav-link">Net Zero</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/project-details" activeClassName="active">
-                                                        <a className="nav-link">Project Details</a>
+                                                        <a className="nav-link">Regularory Reporting</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/pricing" activeClassName="active">
-                                                        <a className="nav-link">Pricing</a>
+                                                        <a className="nav-link">ESG Reporting</a>
                                                     </Link>
                                                 </li>
 
