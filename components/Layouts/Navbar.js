@@ -93,6 +93,12 @@ class Navbar extends Component {
                                             </Link>
 
                                             <ul className="dropdown-menu">
+                                                <span
+                                                    className={
+                                                            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+                                                                            }>                               
+                                                    Admin Layout
+                                                </span>
                                                 <li className="nav-item">
                                                     <Link href="/service-details" activeClassName="active">
                                                         <a className="nav-link">Emission X</a>
