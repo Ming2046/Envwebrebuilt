@@ -160,23 +160,7 @@ class Navbar extends Component {
                                                     </Link>
                                                 </li>
 
-                                                <li className="nav-item">
-                                                    <Link href="/blog2" activeClassName="active">
-                                                        <a className="nav-link">Blog Right Sidebar</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/blog3" activeClassName="active">
-                                                        <a className="nav-link">Blog Left Sidebar</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/blog-details" activeClassName="active">
-                                                        <a className="nav-link">Blog Details</a>
-                                                    </Link>
-                                                </li>
+                                       
                                             </ul>
                                         </li>
 
