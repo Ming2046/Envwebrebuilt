@@ -40,7 +40,7 @@ export default class MyApp extends App {
                         name="viewport" 
                         content="width=device-width, initial-scale=1" 
                     />
-                    <title>Raxr - React Next Data Science & AI Analytics Template</title>
+                    <title>EnviroByte</title>
                 </Head>
 
                 <Component {...pageProps} />
