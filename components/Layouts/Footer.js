@@ -147,11 +147,7 @@ class Footer extends Component {
                                         </span>
                                     </div>
 
-                                    <div className="footer-info-contact">
-                                        <i className="flaticon-maps-and-flags"></i>
-                                        <h3>Address</h3>
-                                        <span>32 st Kilda Road, Melbourne VIC, 3004 Australia</span>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
