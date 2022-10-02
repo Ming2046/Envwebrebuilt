@@ -143,7 +143,7 @@ class Footer extends Component {
                                         <i className="flaticon-envelope"></i>
                                         <h3>Email</h3>
                                         <span>
-                                            hello@raxr.com
+                                            info@envirobyte.com
                                         </span>
                                     </div>
 
