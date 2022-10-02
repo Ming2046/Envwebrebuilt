@@ -17,39 +17,7 @@ class Footer extends Component {
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-                                    <ul className="footer-social">
-                                        <li>
-                                            <Link href="/#">
-                                                <a target="_blank">
-                                                    <i className="fab fa-facebook-f"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
 
-                                        <li>
-                                            <Link href="/#">
-                                                <a target="_blank">
-                                                    <i className="fab fa-twitter"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-
-                                        <li>
-                                            <Link href="/#">
-                                                <a target="_blank">
-                                                    <i className="fab fa-pinterest"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-
-                                        <li>
-                                            <Link href="/#">
-                                                <a target="_blank">
-                                                    <i className="fab fa-linkedin"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
 
