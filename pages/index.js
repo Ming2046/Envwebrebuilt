@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
-import MainBanner from '../components/HomeOne/MainBanner';
-import OurServices from '../components/HomeOne/OurServices';
-import AboutUs from '../components/HomeOne/AboutUs';
+import MainBanner from '../components/HomeThree/MainBanner';
+import AboutUs from '../components/HomeThree/AboutUs';
+import OurServices from '../components/HomeThree/OurServices';
 import FunFacts from '../components/Common/FunFacts';
-import WorkingProcess from '../components/HomeOne/WorkingProcess';
-import FeaturedService from '../components/HomeOne/FeaturedService';
+import SolutionsTab from '../components/Common/SolutionsTab';
+import Projects from '../components/HomeThree/Projects';
 import Testimonial from '../components/Common/Testimonial';
-import GetStartedProject from '../components/Common/GetStartedProject';
 import BlogPost from '../components/Common/BlogPost';
+import SubscribeStyleTwo from '../components/Common/SubscribeStyleTwo';
 import Customers from '../components/Common/Customers';
-import Subscribe from '../components/Common/Subscribe';
 import Footer from '../components/Layouts/Footer';
 
-class Index extends Component {
+class Index3 extends Component {
     render() {
         return (
             <>
@@ -21,26 +20,21 @@ class Index extends Component {
 
                 <MainBanner />
 
-                <OurServices />
-
                 <AboutUs />
+
+                <OurServices />
 
                 <FunFacts />
 
-                <WorkingProcess />
+                <SolutionsTab />
 
-                <div className="pb-100">
-                    <FeaturedService />
-                </div>
-
-
-                <GetStartedProject />
+                <Projects />
 
                 <BlogPost />
 
-                <Customers />
+                <SubscribeStyleTwo />
 
-                <Subscribe />
+                <Customers />
                 
                 <Footer />
             </>
@@ -48,4 +42,4 @@ class Index extends Component {
     }
 }
 
-export default Index;
+export default Index3;
