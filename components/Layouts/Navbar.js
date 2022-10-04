@@ -179,7 +179,7 @@ class Navbar extends Component {
                                     <div className="others-options">
                                         <Link href="/contact">
                                             <a className="default-btn">
-                                                Free Quote
+                                                Login
                                                 <span></span>
                                             </a>
                                         </Link>
