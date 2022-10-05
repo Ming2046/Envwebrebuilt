@@ -33,9 +33,9 @@ class MainBanner extends Component {
 
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-image">
-                                        <image>
+
                                             <img src="/images/home-three/home-three-shape1.png" alt="image" />
-                                        </image>
+
 
                                         <ScrollAnimation animateIn="fadeInUp" delay={50} animateOnce={true}>
                                             <img src="/images/home-three/home-three-shape2.png" alt="image" />
