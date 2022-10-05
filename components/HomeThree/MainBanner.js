@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import ScrollAnimation from 'react-animate-on-scroll';
+//import ScrollAnimation from 'react-animate-on-scroll';
 
 class MainBanner extends Component {
     render() {
@@ -34,53 +34,11 @@ class MainBanner extends Component {
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-image">
 
-                                            <img src="/images/home-three/home-three-shape1.png" alt="image" />
 
 
-                                        <ScrollAnimation animateIn="fadeInUp" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/home-three-shape2.png" alt="image" />
-                                        </ScrollAnimation>
 
-                                        <ScrollAnimation animateIn="fadeInLeft" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/home-three-shape3.png" alt="image" />
-                                        </ScrollAnimation>
+                                        <img src="/images/home-three/main-image3.png" alt="image" />
 
-                                        <ScrollAnimation animateIn="zoomIn" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/home-three-shape4.png" alt="image" />
-                                        </ScrollAnimation>
-
-                                        <ScrollAnimation animateIn="bounceIn" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/home-three-shape5.png" alt="image" />
-                                        </ScrollAnimation>
-
-                                        <ScrollAnimation animateIn="fadeInDown" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/home-three-shape6.png" alt="image" />
-                                        </ScrollAnimation>
-
-                                        <ScrollAnimation animateIn="zoomIn" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/home-three-shape7.png" alt="image" />
-                                        </ScrollAnimation>
-
-                                        <ScrollAnimation animateIn="fadeInUp" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/home-three-shape8.png" alt="image" />
-                                        </ScrollAnimation>
-
-                                        <ScrollAnimation animateIn="rotateIn" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/home-three-shape9.png" alt="image" />
-                                        </ScrollAnimation>
-
-                                        <ScrollAnimation animateIn="fadeInUp" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/home-three-shape10.png" alt="image" />
-                                        </ScrollAnimation>
-
-                                        <ScrollAnimation animateIn="zoomIn" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/home-three-shape11.png" alt="image" />
-                                        </ScrollAnimation>
-
-                                        {/* Main Image */}
-                                        <ScrollAnimation animateIn="zoomIn" delay={50} animateOnce={true}>
-                                            <img src="/images/home-three/main-image3.png" alt="image" />
-                                        </ScrollAnimation>
                                     </div>
                                 </div>
                             </div>
