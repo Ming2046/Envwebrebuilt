@@ -32,7 +32,7 @@ class MainBanner extends Component {
                                 </div>
 
                                 <div className="col-lg-6 col-md-12">
-                                    <div className="banner-image">
+                                    <div>
 
 
 
