@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import ContactInfo from '../components/Contact/ContactInfo';
+//import ContactInfo from '../components/Contact/ContactInfo';
 import ContactForm from '../components/Contact/ContactForm';
 import SubscribeStyleThree from '../components/Common/SubscribeStyleThree';
 import Footer from '../components/Layouts/Footer';
@@ -20,7 +20,7 @@ class Contact extends Component {
                     bgImage="banner-bg-img1"
                 />
 
-                <ContactInfo />
+                <!-- <ContactInfo /> -->
 
                 <ContactForm />
 
