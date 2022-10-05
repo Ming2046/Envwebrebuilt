@@ -33,7 +33,7 @@ class MainBanner extends Component {
 
                                 <div className="col-lg-6 col-md-12">
                                     <div className="banner-image">
-                                        <ScrollAnimation animateIn="fadeInUp" delay={50} animateOnce={true}>
+                                        <ScrollAnimation animateIn="fadeInUp" delay={1000} animateOnce={true}>
                                             <img src="/images/home-three/home-three-shape1.png" alt="image" />
                                         </ScrollAnimation>
 
