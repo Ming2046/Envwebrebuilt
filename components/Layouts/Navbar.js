@@ -169,16 +169,15 @@ class Navbar extends Component {
                                             </Link>
                                         </li>
 
+                                        <li className="nav-item">
+                                            <Link href="/contact" activeClassName="active">
+                                                <a className="nav-link">Login</a>
+                                            </Link>
+                                        </li>
+
                                     </ul>
 
-                                    <div className="others-options">
-                                        <Link href="/login">
-                                            <a className="default-btn">
-                                                Login
-                                                <span></span>
-                                            </a>
-                                        </Link>
-                                    </div>
+
                                 </div>
                             </nav>
                         </div>
