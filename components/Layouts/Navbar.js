@@ -38,7 +38,7 @@ class Navbar extends Component {
             <>
                 <div id="navbar" className="navbar-area">
                     <div className="main-nav">
-                        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+                        <div className="container">
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <Link href="/">
                                     <a className="navbar-brand">
