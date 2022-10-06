@@ -1995,13 +1995,13 @@ Sidebar Widget Area CSS
                         position: center center !important;
                     }
                     &.bg1 {
-                        background-image: url(/images/blog-details/blog-gallery1.jpg);
+                        background-image: url(../public/images/blog-details/blog-gallery1.jpg);
                     }
                     &.bg2 {
-                        background-image: url(/images/blog-details/blog-gallery2.jpg);
+                        background-image: url(../public/images/blog-details/blog-gallery2.jpg);
                     }
                     &.bg3 {
-                        background-image: url(/images/blog-details/blog-gallery3.jpg);
+                        background-image: url(../public/images/blog-details/blog-gallery3.jpg);
                     }
                 }
             }
@@ -3103,19 +3103,19 @@ Page Title Area CSS
     }
 
     &.banner-bg-img1 {
-        background-image: url(/images/page-title-bg.jpg);
+        background-image: url(../public/images/page-title-bg.jpg);
     }
     &.banner-bg-img2 {
-        background-image: url(/images/page-title-bg-2.jpg);
+        background-image: url(../public/images/page-title-bg-2.jpg);
     }
     &.banner-bg-img3 {
-        background-image: url(/images/page-title-bg-3.jpg);
+        background-image: url(../public/images/page-title-bg-3.jpg);
     }
     &.banner-bg-img4 {
-        background-image: url(/images/page-title-bg-4.jpg);
+        background-image: url(../public/images/page-title-bg-4.jpg);
     }
     &.banner-bg-img5 {
-        background-image: url(/images/page-title-bg-5.jpg);
+        background-image: url(../public/images/page-title-bg-5.jpg);
     }
 }
 .page-title-content {
@@ -3175,16 +3175,16 @@ Page Title Area CSS
     }
 }
 .item-bg1 {
-    background-image: url(/images/page-title-bg-2.jpg);
+    background-image: url(../public/images/page-title-bg-2.jpg);
 }
 .item-bg2 {
-    background-image: url(/images/page-title-bg-3.jpg);
+    background-image: url(../public/images/page-title-bg-3.jpg);
 }
 .item-bg3 {
-    background-image: url(/images/page-title-bg-4.jpg);
+    background-image: url(../public/images/page-title-bg-4.jpg);
 }
 .item-bg4 {
-    background-image: url(/images/page-title-bg-5.jpg);
+    background-image: url(../public/images/page-title-bg-5.jpg);
 }
 /*================================================
 Team Section CSS
@@ -3670,7 +3670,7 @@ Coming Soon Area CSS
     z-index: 1;
     height: 100vh;
     background: {
-        image: url(/images/page-title-bg.jpg);
+        image: url(../public/images/page-title-bg.jpg);
         position: center center;
         size: cover;
         repeat: no-repeat;
@@ -4401,7 +4401,7 @@ blockquote, .blockquote {
 Footer Section CSS
 =================================================*/
 .footer-section {
-    background-image: url(/images/footer-bg.jpg);
+    background-image: url(../public/images/footer-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
