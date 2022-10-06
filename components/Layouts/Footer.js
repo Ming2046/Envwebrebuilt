@@ -124,7 +124,6 @@ class Footer extends Component {
                     <div className="lines">
                         <div className="line"></div>
                         <div className="line"></div>
-                        <div className="line"></div>
                     </div>
 
                     <div className="partner-shape-img1">
