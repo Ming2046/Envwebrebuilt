@@ -62,7 +62,7 @@ class Navbar extends Component {
                                 </button>
 
                                 <div className={classOne} id="navbarSupportedContent">
-                                    <ul className="navbar-nav">
+                                    <ul className="navbar-nav justify-between">
                                     
                                         <li className="nav-item">
                                             <Link href="/about-us">
@@ -85,7 +85,7 @@ class Navbar extends Component {
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li className="nav-item">
+                                        <li className="nav-item justify-between">
                                             <Link href="/#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     Product <i className="fas fa-chevron-down"></i>
@@ -122,7 +122,7 @@ class Navbar extends Component {
                                         </li>
 
 
-                                        <li className="nav-item">
+                                        <li className="nav-item justify-between">
                                             <Link href="/#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     Projects <i className="fas fa-chevron-down"></i>
@@ -146,7 +146,7 @@ class Navbar extends Component {
                                         
 
 
-                                        <li className="nav-item">
+                                        <li className="nav-item justify-between">
                                             <Link href="/#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     Blog <i className="fas fa-chevron-down"></i>
@@ -164,14 +164,14 @@ class Navbar extends Component {
                                             </ul>
                                         </li>
 
-                                        <li className="nav-item">
+                                        <li className="nav-item justify-between">
                                             <Link href="/contact" activeClassName="active">
                                                 <a className="nav-link">Contact Us</a>
                                             </Link>
                                         </li>
                                     </ul>
 
-                                    <div className="others-options m-lg-auto">
+                                    <div className="others-options m-lg-auto justify-between">
                                         <Link href="/contact">
                                             <a className="default-btn">
                                                 Login
