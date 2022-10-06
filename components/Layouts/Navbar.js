@@ -170,7 +170,7 @@ class Navbar extends Component {
                                         </li>
                                     </ul>
 
-                                    <div className="others-options m-lg-auto justify-between">
+                                    <div className="others-options">
                                         <Link href="/contact">
                                             <a className="default-btn">
                                                 Login
