@@ -64,7 +64,7 @@ class Navbar extends Component {
                                 <div className={classOne} id="navbarSupportedContent">
                                     <ul className="navbar-nav">
                                     
-                                        <li className="nav-item w-auto">
+                                        <li className="nav-item">
                                             <Link href="/about-us">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     About <i className="fas fa-chevron-down "></i>
