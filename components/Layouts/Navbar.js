@@ -85,7 +85,7 @@ class Navbar extends Component {
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li className="nav-item">
+                                        <li className="nav-item me-auto">
                                             <Link href="/#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     Product <i className="fas fa-chevron-down"></i>
@@ -122,7 +122,7 @@ class Navbar extends Component {
                                         </li>
 
 
-                                        <li className="nav-item">
+                                        <li className="nav-item me-auto">
                                             <Link href="/#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     Projects <i className="fas fa-chevron-down"></i>
@@ -146,7 +146,7 @@ class Navbar extends Component {
                                         
 
 
-                                        <li className="nav-item">
+                                        <li className="nav-item me-auto">
                                             <Link href="/#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     Blog <i className="fas fa-chevron-down"></i>
@@ -164,14 +164,14 @@ class Navbar extends Component {
                                             </ul>
                                         </li>
 
-                                        <li className="nav-item">
+                                        <li className="nav-item me-auto">
                                             <Link href="/contact" activeClassName="active">
                                                 <a className="nav-link">Contact Us</a>
                                             </Link>
                                         </li>
                                     </ul>
 
-                                    <div className="others-options">
+                                    <div className="others-options me-auto">
                                         <Link href="/contact">
                                             <a className="default-btn">
                                                 Login
