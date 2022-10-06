@@ -171,7 +171,7 @@ class Navbar extends Component {
                                         </li>
                                     </ul>
 
-                                    <div className="others-options">
+                                    <div className="others-options m-lg-auto">
                                         <Link href="/contact">
                                             <a className="default-btn">
                                                 Login
