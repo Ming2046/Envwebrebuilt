@@ -67,7 +67,7 @@ class Navbar extends Component {
                                         <li className="nav-item">
                                             <Link href="/about-us">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    About <i className="fas fa-chevron-down"></i>
+                                                    About <i className="fas fa-chevron-down text-sm py-2 px-4 block w-full whitespace-nowrap bg-transparent font-semibold"></i>
                                                 </a>
                                             </Link>
 
