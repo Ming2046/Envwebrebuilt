@@ -64,10 +64,10 @@ class Navbar extends Component {
                                 <div className={classOne} id="navbarSupportedContent">
                                     <ul className="navbar-nav">
                                     
-                                        <li className="nav-item">
+                                        <li className="nav-item me-auto">
                                             <Link href="/about-us">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    About <i className="fas fa-chevron-down text-sm py-2 px-4 block w-full whitespace-nowrap bg-transparent font-semibold"></i>
+                                                    About <i className="fas fa-chevron-down "></i>
                                                 </a>
                                             </Link>
 
