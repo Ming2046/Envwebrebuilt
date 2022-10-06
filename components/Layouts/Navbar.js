@@ -163,7 +163,7 @@ class Navbar extends Component {
                                             </ul>
                                         </li>
 
-                                        <li className="nav-item justify-between">
+                                        <li className="nav-item justify-between-end">
                                             <Link href="/contact" activeClassName="active">
                                                 <a className="nav-link">Contact Us</a>
                                             </Link>
