@@ -169,11 +169,6 @@ class Navbar extends Component {
                                                 <a className="nav-link">Contact Us</a>
                                             </Link>
                                         </li>
-                                        <li className="nav-item">
-                                            <Link href="/contact" activeClassName="active">
-                                                <a className="nav-link">Log in</a>
-                                            </Link>
-                                        </li>
                                     </ul>
 
                                     <div className="others-options">
