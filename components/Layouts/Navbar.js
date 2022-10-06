@@ -85,6 +85,89 @@ class Navbar extends Component {
                                                 </li>
                                             </ul>
                                         </li>
+                                        <li className="nav-item">
+                                            <Link href="/#">
+                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                    Product <i className="fas fa-chevron-down"></i>
+                                                </a>
+                                            </Link>
+
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="/service-details" activeClassName="active">
+                                                        <a className="nav-link">Emission Factor Hub</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link href="/projects" activeClassName="active">
+                                                        <a className="nav-link">Net Zero</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link href="/project-details" activeClassName="active">
+                                                        <a className="nav-link">Regularory Reporting</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link href="/pricing" activeClassName="active">
+                                                        <a className="nav-link">ESG Reporting</a>
+                                                    </Link>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+
+                                        <li className="nav-item">
+                                            <Link href="/#">
+                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                    Projects <i className="fas fa-chevron-down"></i>
+                                                </a>
+                                            </Link>
+
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="/projects" activeClassName="active">
+                                                        <a className="nav-link">Projects</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link href="/project-details" activeClassName="active">
+                                                        <a className="nav-link">Project Details</a>
+                                                    </Link>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+
+                                        <li className="nav-item">
+                                            <Link href="/#">
+                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                    Blog <i className="fas fa-chevron-down"></i>
+                                                </a>
+                                            </Link>
+
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="/blog" activeClassName="active">
+                                                        <a className="nav-link">Blog Grid</a>
+                                                    </Link>
+                                                </li>
+
+
+                                            </ul>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <Link href="/contact" activeClassName="active">
+                                                <a className="nav-link">Contact Us</a>
+                                            </Link>
+                                        </li>
 
                                     </ul>
 
