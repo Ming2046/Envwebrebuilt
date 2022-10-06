@@ -431,7 +431,7 @@ Navbar Area CSS
 }
 
 .main-nav .navbar .navbar-nav {
-  margin: auto;
+  margin-left: auto;
 }
 
 .main-nav .navbar .navbar-nav .nav-item {
