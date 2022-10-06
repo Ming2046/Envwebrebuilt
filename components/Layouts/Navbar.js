@@ -89,7 +89,7 @@ class Navbar extends Component {
                                     </ul>
 
                                     <div className="others-options">
-                                        <Link href="/contact">
+                                        <Link href="/login">
                                             <a className="default-btn">
                                                 Login
                                                 <span></span>
