@@ -62,7 +62,7 @@ class Navbar extends Component {
                                 </button>
 
                                 <div className={classOne} id="navbarSupportedContent">
-                                    <ul className="navbar-nav justify-between">
+                                    <ul className="navbar-nav justify-between ml-auto">
                                     
                                         <li className="nav-item">
                                             <Link href="/about-us">
@@ -116,8 +116,7 @@ class Navbar extends Component {
                                                         <a className="nav-link">ESG Reporting</a>
                                                     </Link>
                                                 </li>
-                                                
-                                                
+
                                             </ul>
                                         </li>
 
