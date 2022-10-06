@@ -20,7 +20,6 @@ class Contact extends Component {
                     bgImage="banner-bg-img1"
                 />
 
-                <!-- <ContactInfo /> -->
 
                 <ContactForm />
 
