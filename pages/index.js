@@ -16,6 +16,9 @@ class Index3 extends Component {
     render() {
         return (
             <>
+                <Head>
+                    <title>Meta Data?</title>
+                </Head>
                 <Navbar />
 
                 <MainBanner />
