@@ -134,10 +134,10 @@ class Footer extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6">
                                 <p> 
-                                    &copy; {currentYear} Raxr. All Rights Reserved by
+                                    &copy; {currentYear} EnviroByte. All Rights Reserved by
 
                                     <a href="https://envytheme.com/" target="_blank">
-                                        EnvyTheme
+                                        SmartPeople
                                     </a>
                                 </p>
                             </div>
