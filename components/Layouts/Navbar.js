@@ -94,7 +94,7 @@ class Navbar extends Component {
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="https://ghg.mzcodelab.com/" activeClassName="active">
+                                                    <Link href="https://ghg.mzcodelab.com/" target="_blank" activeClassName="active">
                                                         <a className="nav-link">Emission Factor Hub</a>
                                                     </Link>
                                                 </li>
