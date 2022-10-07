@@ -11,16 +11,13 @@ import BlogPost from '../components/Common/BlogPost';
 import SubscribeStyleTwo from '../components/Common/SubscribeStyleTwo';
 import Customers from '../components/Common/Customers';
 import Footer from '../components/Layouts/Footer';
-import Head from 'next/head';
+//import Head from 'next/head';
 
 
 class Index3 extends Component {
     render() {
         return (
             <>
-                <Head>
-                    <title>Meta Data?</title>
-                </Head>
                 <Navbar />
 
                 <MainBanner />
