@@ -15,9 +15,9 @@ class Projects extends Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-project">
                                 <div className="project-image">
-                                    <a href="/project-details">
+                                    <Link href="/project-details">
                                         <img src="/images/projects/project1.png" alt="image" />
-                                    </a>
+                                    </Link>
                                 </div>
             
                                 <div className="image-hover">
