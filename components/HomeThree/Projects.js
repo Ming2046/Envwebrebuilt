@@ -20,11 +20,11 @@ class Projects extends Component {
                                     </Link>
                                 </div>
             
-                                <div className="image-hover" style={onclick="window.location='http://google.com';"}>
+                                <div className="image-hover">
                                     <div className="text">
                                         <h3>
                                             <Link href="/project-details">
-                                                <a>Data is the new science big data holds the answer</a>
+                                                <a className="stretched-link">Data is the new science big data holds the answer</a>
                                             </Link>
                                         </h3>
                                         <p>Data Analysis</p>
