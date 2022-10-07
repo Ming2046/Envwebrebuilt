@@ -20,7 +20,7 @@ class Projects extends Component {
                                     </Link>
                                 </div>
             
-                                <div className="image-hover">
+                                <div className="image-hover" style={onclick="window.location='http://google.com';"}>
                                     <div className="text">
                                         <h3>
                                             <Link href="/project-details">
