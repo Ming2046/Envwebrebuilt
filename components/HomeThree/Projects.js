@@ -21,7 +21,7 @@ class Projects extends Component {
                                 </div>
             
                                 <div className="image-hover">
-                                    <div className="text stretched-link">
+                                    <div className="stretched-link">
                                         <h3>
                                             <Link href="/project-details">
                                                 <a className="stretched-link">Data is the new science big data holds the answer</a>
