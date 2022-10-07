@@ -177,6 +177,15 @@ class Navbar extends Component {
 
                                     </ul>
 
+                                    <div className="others-options">
+                                        <Link href="/contact">
+                                            <a className="default-btn">
+                                                Login
+                                                <span></span>
+                                            </a>
+                                        </Link>
+                                    </div>
+
 
                                 </div>
                             </nav>
