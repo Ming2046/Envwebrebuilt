@@ -6,11 +6,13 @@ import OurServices from '../components/HomeThree/OurServices';
 import FunFacts from '../components/Common/FunFacts';
 import SolutionsTab from '../components/Common/SolutionsTab';
 import Projects from '../components/HomeThree/Projects';
-import Testimonial from '../components/Common/Testimonial';
+//import Testimonial from '../components/Common/Testimonial';
 import BlogPost from '../components/Common/BlogPost';
 import SubscribeStyleTwo from '../components/Common/SubscribeStyleTwo';
 import Customers from '../components/Common/Customers';
 import Footer from '../components/Layouts/Footer';
+import Head from 'next/head';
+
 
 class Index3 extends Component {
     render() {
