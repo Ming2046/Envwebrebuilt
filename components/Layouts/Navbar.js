@@ -73,7 +73,7 @@ class Navbar extends Component {
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="/services" activeClassName="active">
+                                                    <Link href="/team" activeClassName="active">
                                                         <a className="nav-link">Team</a>
                                                     </Link>
                                                 </li>
@@ -170,7 +170,7 @@ class Navbar extends Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/contact" activeClassName="active">
+                                            <Link href="/auth/login" activeClassName="active">
                                                 <a className="nav-link">Login</a>
                                             </Link>
                                         </li>
