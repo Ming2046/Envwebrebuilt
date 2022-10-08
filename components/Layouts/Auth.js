@@ -3,9 +3,9 @@ import React from "react";
 // components
 
 //import Navbar from "components/Navbars/AuthNavbar.js";
-import MainNavigation from "components/Layouts/Navbar.js"
+import MainNavigation from "./Navbar.js"
 //import FooterSmall from "components/Layouts/FooterSmall.js";
-import Footer from "components/Layouts/Footer.js";
+import Footer from "./Footer.js";
 
 export default function Auth({ children }) {
   return (
