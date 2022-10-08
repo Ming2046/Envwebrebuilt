@@ -4,7 +4,8 @@ import React from "react";
 
 //import Navbar from "components/Navbars/AuthNavbar.js";
 import MainNavigation from "components/Layouts/Navbar.js"
-import FooterSmall from "components/Layouts/FooterSmall.js";
+//import FooterSmall from "components/Layouts/FooterSmall.js";
+import Footer from "components/Layouts/Footer.js";
 
 export default function Auth({ children }) {
   return (
@@ -19,7 +20,7 @@ export default function Auth({ children }) {
             }}
           ></div>
           {children}
-          <FooterSmall absolute />
+          <Footer absolute />
         </section>
       </main>
     </>
