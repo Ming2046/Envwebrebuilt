@@ -136,7 +136,7 @@ class Footer extends Component {
                                 <p> 
                                     &copy; {currentYear} EnviroByte. All Rights Reserved by
 
-                                    <a href="https://envytheme.com/" target="_blank">
+                                    <a href="/" target="_blank">
                                         SmartPeople
                                     </a>
                                 </p>

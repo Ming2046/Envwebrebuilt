@@ -32,10 +32,6 @@ class Index3 extends Component {
 
                 <Projects />
 
-                <BlogPost />
-
-                <SubscribeStyleTwo />
-
                 <Customers />
                 
                 <Footer />

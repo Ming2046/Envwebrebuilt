@@ -166,3 +166,4 @@ thumb
 sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/nextjs,intellij,react
+sendgrid.env

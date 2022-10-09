@@ -16,6 +16,7 @@
         "@headlessui/react": "^1.7.2",
         "@popperjs/core": "2.9.1",
         "@tailwindcss/forms": "0.2.1",
+        "@sendgrid/mail": "^7.7.0",
         "chart.js": "2.9.4",
         "gulp": "4.0.2",
         "gulp-append-prepend": "1.0.8",

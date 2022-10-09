@@ -1,5 +1,5 @@
 const baseUrl = process.env.NODE_ENV === "production" 
-? 'https://raxt-react.envytheme.com' 
-: 'http://localhost:3000';
+? 'https://api.sendgrid.com'
+: 'https://fishcreekpark.homes';
 
 export default baseUrl;
