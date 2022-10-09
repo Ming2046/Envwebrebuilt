@@ -7,7 +7,7 @@ const transporter = {
 
     }
 }
-
+console.log(process.env.SENDGRID_API_KEY)
 const mailer = nodemailer.createTransport(sgTransport(transporter));
 
 export default async (req, res) => {
