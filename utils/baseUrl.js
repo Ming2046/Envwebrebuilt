@@ -1,5 +1,5 @@
 const baseUrl = process.env.NODE_ENV === "production" 
-? 'https://api.sendgrid.com'
-: 'http://fishcreekpark.homes';
+? 'https://www.fishcreekpark.homes'
+: 'http://www.fishcreekpark.homes';
 
 export default baseUrl;
