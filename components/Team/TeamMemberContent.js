@@ -15,7 +15,7 @@ class TeamMemberContent extends Component {
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
-                                    <img src="/images/team/team1.jpg" alt="team" />
+                                    <img src="/images/team/team1.png" alt="team" />
 
                                     <div className="team-social">
                                         <a href="https://www.facebook.com/" target="_blank">
@@ -140,7 +140,7 @@ class TeamMemberContent extends Component {
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
-                                    <img src="/images/team/team6.jpg" alt="team" />
+                                    <img src="/images/team/team6.png" alt="team" />
 
                                     <div className="team-social">
                                         <a href="https://www.facebook.com/" target="_blank">
