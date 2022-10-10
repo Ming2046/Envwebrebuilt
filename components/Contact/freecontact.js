@@ -9,7 +9,15 @@ const MySwal = withReactContent(Swal)
 function ContactForm() {
     const [state, handleSubmit] = useForm("xqkjlkev");
     if (state.succeeded) {
-        return <p>Thanks for contacting us!</p>;
+        return (
+            <div className="contact-section ptb-100">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <p>Thanks for contacting us!</p>;
+                    </div>
+                </div>
+            </div>
+        )
     }
     return (
         <div className="contact-section ptb-100">
@@ -31,7 +39,6 @@ function ContactForm() {
                                                 name="email"
                                                 placeholder="Email"
                                                 className="form-control"
-
                                                 required
                                             />
                                             <ValidationError
