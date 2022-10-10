@@ -32,7 +32,7 @@ function ContactForm() {
                     <div className="col-lg-6">
                         <div className="contact-form">
                             <form onSubmit={handleSubmit}>
-                                    <div className="col-lg-6 col-md-6">
+                                    <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
                                             <input
                                                 type="text"
