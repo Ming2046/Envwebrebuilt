@@ -21,10 +21,7 @@ function ContactForm() {
 
 // Form initial state
     const INITIAL_STATE = {
-        name: "",
         email: "",
-        number: "",
-        subject: "",
         text: ""
     };
     const [contact, setContact] = useState(INITIAL_STATE);
@@ -59,6 +56,8 @@ function ContactForm() {
                                                 name="email"
                                                 placeholder="Email"
                                                 className="form-control"
+                                                value={contact.email}
+                                                onChange={handleChange}
                                                 required
                                             />
                                             <ValidationError
@@ -77,7 +76,8 @@ function ContactForm() {
                                                 rows="6"
                                                 placeholder="Write your message..."
                                                 className="form-control"
-
+                                                value={contact.text}
+                                                onChange={handleChange}
                                                 required
                                             />
                                             <ValidationError
