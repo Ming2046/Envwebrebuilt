@@ -8,16 +8,7 @@ const MySwal = withReactContent(Swal)
 
 function ContactForm() {
     const [state, handleSubmit] = useForm("xqkjlkev");
-    const alertContent = () => {
-        MySwal.fire({
-            title: 'Congratulations!',
-            text: 'Your message was successfully send and will back to you soon',
-            icon: 'success',
-            timer: 2000,
-            timerProgressBar: true,
-            showConfirmButton: false,
-        })
-    }
+
 
 // Form initial state
     const INITIAL_STATE = {
@@ -34,7 +25,14 @@ function ContactForm() {
 
     if (state.succeeded) {
         setContact(INITIAL_STATE);
-        alertContent();
+        MySwal.fire({
+            title: 'Congratulations!',
+            text: 'Your message was successfully send and will back to you soon',
+            icon: 'success',
+            timer: 2000,
+            timerProgressBar: true,
+            showConfirmButton: false,
+        })
     }
     return (
         <div className="contact-section ptb-100">
