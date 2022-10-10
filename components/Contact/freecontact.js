@@ -108,7 +108,7 @@ function ContactForm() {
                                     <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
                                             <textarea
-                                                name="message"
+                                                name="text"
                                                 cols="30"
                                                 rows="6"
                                                 placeholder="Write your message..."
