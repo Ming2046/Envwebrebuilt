@@ -8,9 +8,9 @@ const MySwal = withReactContent(Swal)
 
 function ContactForm() {
     const [state, handleSubmit] = useForm("xqkjlkev");
-
-
-
+    if (state.succeeded) {
+        return <p>Thanks for contacting us!</p>;
+    }
     return (
         <div className="contact-section ptb-100">
             <div className="container">
