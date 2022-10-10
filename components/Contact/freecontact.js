@@ -10,30 +10,7 @@ function ContactForm() {
     const [state, handleSubmit] = useForm("xqkjlkev");
 
 
-// Form initial state
-    const INITIAL_STATE = {
-        email: "",
-        text: ""
-    };
-    const [contact, setContact] = useState(INITIAL_STATE);
 
-    const handleChange = e => {
-        const { name, value } = e.target;
-        setContact(prevState => ({ ...prevState, [name]: value }));
-        // console.log(contact)
-    }
-
-    if (state.succeeded) {
-        setContact(INITIAL_STATE);
-        MySwal.fire({
-            title: 'Congratulations!',
-            text: 'Your message was successfully send and will back to you soon',
-            icon: 'success',
-            timer: 2000,
-            timerProgressBar: true,
-            showConfirmButton: false,
-        })
-    }
     return (
         <div className="contact-section ptb-100">
             <div className="container">
@@ -54,8 +31,7 @@ function ContactForm() {
                                                 name="email"
                                                 placeholder="Email"
                                                 className="form-control"
-                                                value={contact.email}
-                                                onChange={handleChange}
+
                                                 required
                                             />
                                             <ValidationError
@@ -74,8 +50,7 @@ function ContactForm() {
                                                 rows="6"
                                                 placeholder="Write your message..."
                                                 className="form-control"
-                                                value={contact.text}
-                                                onChange={handleChange}
+
                                                 required
                                             />
                                             <ValidationError
