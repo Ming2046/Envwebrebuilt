@@ -140,7 +140,7 @@ class TeamMemberContent extends Component {
                         <div className="col-lg-6 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
-                                    <img src="/images/team/team6.png" alt="team" />
+                                    <img src="/images/team/team6_50.png" alt="team" />
 
                                     <div className="team-social">
                                         <a href="https://www.facebook.com/" target="_blank">
