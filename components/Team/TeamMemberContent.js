@@ -12,7 +12,7 @@ class TeamMemberContent extends Component {
                     </div>
 
                     <div className="row">
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-3 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
                                     <img src="/images/team/team1.png" alt="team" />
@@ -37,7 +37,7 @@ class TeamMemberContent extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-3 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
                                     <img src="/images/team/team2.jpg" alt="team" />
@@ -62,7 +62,7 @@ class TeamMemberContent extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-3 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
                                     <img src="/images/team/team3.jpg" alt="team" />
@@ -87,7 +87,7 @@ class TeamMemberContent extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-3 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
                                     <img src="/images/team/team4.jpg" alt="team" />
@@ -112,7 +112,7 @@ class TeamMemberContent extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-6 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
                                     <img src="/images/team/team5.jpg" alt="team" />
@@ -137,7 +137,7 @@ class TeamMemberContent extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-6 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
                                     <img src="/images/team/team6.png" alt="team" />
