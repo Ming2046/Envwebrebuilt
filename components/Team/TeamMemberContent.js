@@ -18,7 +18,7 @@ class TeamMemberContent extends Component {
                                     <img src="/images/team/team1_50.png" alt="team" />
 
                                     <div className="team-social">
-                                        <a href="https://www.facebook.com/" target="_blank">
+                                        <a href="https://www.mzcodelab.com/" target="_blank">
                                             <i className="fab fa-facebook-f"></i>
                                         </a>
                                         <a href="https://www.twitter.com/" target="_blank">
