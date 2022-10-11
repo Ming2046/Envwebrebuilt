@@ -43,7 +43,7 @@ class Navbar extends Component {
                                 <Link href="/">
                                     <a className="navbar-brand">
                                         <img src="/images/logo-white.png" className="white-logo" alt="logo" />
-                                        <img src="/images/Envirobyte_Lockup_black.svg" className="black-logo" alt="logo" />
+                                        <img src="/Envirobyte_Lockup_black.svg" className="black-logo" alt="logo" />
                                     </a>
                                 </Link>
 
