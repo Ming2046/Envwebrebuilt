@@ -42,7 +42,7 @@ class Navbar extends Component {
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <Link href="/">
                                     <a className="navbar-brand">
-                                        <img src="/images/logo-white.png" className="white-logo" alt="logo" />
+                                        <img src="/images/Envirobyte_Lockup_black.svg" className="white-logo" alt="logo" />
                                         <img src="/images/logo-black.png" className="black-logo" alt="logo" />
                                     </a>
                                 </Link>
