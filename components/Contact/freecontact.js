@@ -61,6 +61,7 @@ function ContactForm() {
                                         <button type="submit" className="submit-btn mt-2">
                                             Send Message!
                                         </button>
+                                        <input type={"reset"}></input>
                                         <p>Thank you for contacting us!</p>
                                     </div>
                                 </form>
@@ -69,8 +70,6 @@ function ContactForm() {
                     </div>
                 </div>
             </div>
-
-
         )
     }
     return (
