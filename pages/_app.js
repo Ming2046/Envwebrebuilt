@@ -19,7 +19,7 @@ export default class MyApp extends App {
         loading: true
     };
     componentDidMount() {
-        this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000); 
+        this.timerHandle = setTimeout(() => this.setState({ loading: false }), 1000);
     }
     componentWillUnmount() {
         if (this.timerHandle) {
