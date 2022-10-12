@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
+import Image from "next/image";
 
 class Navbar extends Component {
     // Navbar 
@@ -42,8 +43,8 @@ class Navbar extends Component {
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <Link href="/">
                                     <a className="navbar-brand">
-                                        <img src="/logo_grey.svg" className="white-logo" alt="logo" />
-                                        <img src="/logo_black.svg" className="black-logo" alt="logo" />
+                                        <Image src="/logo_grey.svg" className="white-logo" height={30} width={30} alt="logo" />
+                                        <Image src="/logo_black.svg" className="black-logo" height={30} width={30} alt="logo" />
                                     </a>
                                 </Link>
 
