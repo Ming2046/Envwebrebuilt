@@ -43,8 +43,8 @@ class Navbar extends Component {
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <Link href="/">
                                     <a className="navbar-brand">
-                                        <Image src="/logo_grey.svg" className="white-logo" height={30} width={30} alt="logo" />
-                                        <Image src="/logo_black.svg" className="black-logo" height={30} width={30} alt="logo" />
+                                        <img src="/image004.png" className="white-logo" width={200} alt="logo" />
+                                        <img src="/image001.png" className="black-logo" width={200} alt="logo" />
                                     </a>
                                 </Link>
 

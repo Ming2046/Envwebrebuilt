@@ -25,7 +25,7 @@ class TeamMemberContent extends Component {
                                             <i className="fab fa-twitter"></i>
                                         </a> 
                                         <a href="https://www.instagram.com/" target="_blank">
-                                            <i className="fab fa-instagram"></i>
+                                            <i className="fa fa-envelope"></i>
                                         </a> 
                                     </div>
                                 </div>
