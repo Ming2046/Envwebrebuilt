@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
-import Image from "next/image";
 
 class Navbar extends Component {
     // Navbar 
