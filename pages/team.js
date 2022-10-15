@@ -26,9 +26,7 @@ class Team extends Component {
 
                 <TeamMemberContent />
 
-                <div className="ptb-100">
-                    <SubscribeStyleThree />
-                </div>
+
                 
                 <Footer />
             </>

@@ -40,7 +40,7 @@ class TeamMemberContent extends Component {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
-                                    <img src="/images/team/team2.jpg" alt="team" />
+                                    <img src="/images/team/team2_50.png" alt="team" />
 
                                     <div className="team-social">
                                         <a href="https://www.facebook.com/" target="_blank">
@@ -65,7 +65,7 @@ class TeamMemberContent extends Component {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
-                                    <img src="/images/team/team3.jpg" alt="team" />
+                                    <img src="/images/team/team2_50.png" alt="team" />
 
                                     <div className="team-social">
                                         <a href="https://www.facebook.com/" target="_blank">
@@ -90,7 +90,7 @@ class TeamMemberContent extends Component {
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
-                                    <img src="/images/team/team4.jpg" alt="team" />
+                                    <img src="/images/team/team2_50.png" alt="team" />
 
                                     <div className="team-social">
                                         <a href="https://www.facebook.com/" target="_blank">
@@ -111,11 +111,17 @@ class TeamMemberContent extends Component {
                                 </div>
                             </div>
                         </div>
-
+                        <div className="section-title">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <span>Our Experts</span>
+                            <h2>Meet Our Leadership Preparing For Your Success</h2>
+                        </div>
                         <div className="col-lg-6 col-sm-6">
                             <div className="single-team-item">
                                 <div className="team-image">
-                                    <img src="/images/team/team5.jpg" alt="team" />
+                                    <img src="/images/team/team6_50.png" alt="team" />
 
                                     <div className="team-social">
                                         <a href="https://www.facebook.com/" target="_blank">
@@ -129,7 +135,6 @@ class TeamMemberContent extends Component {
                                         </a> 
                                     </div>
                                 </div>
-
                                 <div className="team-content">
                                     <h3>Edmond Halley</h3>
                                     <span>Agent Management</span>
