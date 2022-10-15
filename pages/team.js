@@ -5,11 +5,15 @@ import TeamMemberContent from '../components/Team/TeamMemberContent';
 //import Testimonial from '../components/Common/Testimonial';
 import SubscribeStyleThree from '../components/Common/SubscribeStyleThree';
 import Footer from '../components/Layouts/Footer';
+import Head from "next/head";
 
 class Team extends Component {
     render() {
         return (
             <>
+                <Head><title>EnviroByte Inc. | Team</title>
+                    <meta name="keywords" content={"envirobyte Environment GHG Calgary Alberta Team teammate"}/>
+                </Head>
                 <Navbar />
 
                 <PageBanner
