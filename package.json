@@ -18,7 +18,7 @@
         "@tailwindcss/forms": "0.2.1",
         "@sendgrid/mail": "^7.7.0",
         "@formspree/react": "2.4.0",
-        "svgr/webpack":"6.5.0",
+        "@svgr/webpack":"6.5.0",
         "chart.js": "2.9.4",
         "gulp": "4.0.2",
         "gulp-append-prepend": "1.0.8",

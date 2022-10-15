@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-
+//import FAVICON from "../public/favon_3_SVG.svg";
 class MyDocument extends Document {
     
     static async getInitialProps(ctx) {
@@ -19,7 +19,7 @@ class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap"
                         rel="stylesheet"
                     />
-                    <link rel="icon" type="image/png" href="/favi.png"></link>
+                    <link rel="icon" type="image/png" href="/favon_3_SVG.svg"></link>
                 </Head>
                 <body>
                     <Main />
